@@ -10,5 +10,3 @@ def home():
 @app.get("/login")
 def login():
     return "You're too early")
-
-
