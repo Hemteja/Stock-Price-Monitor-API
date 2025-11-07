@@ -6,3 +6,9 @@ app = FastAPI()
 def home():
     display = {"home" : "Development in progress"}
     return display["home"]
+
+@app.get("/login")
+def login():
+    return "You're too early")
+
+
